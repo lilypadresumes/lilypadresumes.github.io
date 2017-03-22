@@ -3,18 +3,16 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="scroll-assist" data-smooth-scroll-offset="77">
 
     {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+    <div class="main-container">
         {{ content }}
-      </div>
-    </main>
+        {% include footer.html %}
+    </div>
 
-    {% include footer.html %}
-
+        {% include scripts.html %}
   </body>
 
 </html>

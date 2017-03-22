@@ -1,27 +1,41 @@
-<header class="site-header" role="banner">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
-
-    <nav class="site-nav">
-      <span class="menu-icon">
-        <svg viewBox="0 0 18 15" width="18px" height="15px">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </span>
-
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
-
-</header>
+<div class="nav-container">
+    <div class="via-1490044509459" via="via-1490044509459" vio="Homepage Nav 1">
+        <div class="bar bar--sm visible-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-3 col-sm-2">
+                        <a href="index.html"> <img class="logo logo-dark" alt="logo" src="{{ "/assets/img/logo-dark.png" | relative_url }}"> <img class="logo logo-light" alt="logo" src="{{ "/assets/img/logo-light.png" | relative_url }}"> </a>
+                    </div>
+                    <div class="col-xs-9 col-sm-10 text-right">
+                        <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="menu1" class="bar bar-1 hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 col-sm-2 hidden-xs">
+                        <div class="bar__module">
+                            <a href="index.html"> <img class="logo logo-dark" alt="logo" src="{{ "/assets/img/logo-dark.png" | relative_url }}"> <img class="logo logo-light" alt="logo" src="{{ "/assets/img/logo-light.png" | relative_url }}"> </a>
+                        </div>
+                    </div>
+                    <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                        <div class="bar__module">
+                            <ul class="menu-horizontal text-left">
+                                <li> <a href="#">
+                                Pricing</a> </li>
+                                <li> <a href="#">Resume Samples</a> </li>
+                                <li> <a href="#">Cover Letter Samples</a> </li>
+                            </ul>
+                        </div>
+                        <div class="bar__module">
+                            <a class="btn btn--sm type--uppercase" href="#purchase-template"> <span class="btn__text">
+                            Free Critique</span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
