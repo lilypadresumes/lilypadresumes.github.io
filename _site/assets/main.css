@@ -5071,6 +5071,8 @@ footer.footer-7 { padding: 1.85714286em 0; }
   .footer-1 .social-list { margin-top: 1.85714286em; }
   .footer-1 .logo { display: block; margin-top: 1.85714286em; margin-bottom: 0.92857143em; margin-left: auto; margin-right: auto; } }
 /*! Place your custom styles here */
+.page-title { margin-bottom: 1em; }
+
 .menu > li { font-family: 'Raleway','Verdana','Helvetica', sans-serif; }
 
 .btn, .btn__text, button { font-family: 'Raleway','Verdana','Helvetica', sans-serif; }
