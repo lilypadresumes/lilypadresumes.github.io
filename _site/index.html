@@ -52,14 +52,13 @@
                     <div class="col-md-10 col-sm-12 text-right text-left-xs text-left-sm">
                         <div class="bar__module">
                             <ul class="menu-horizontal text-left">
-                                <li> <a href="#">
-                                Pricing</a> </li>
-                                <li> <a href="#">Resume Samples</a> </li>
-                                <li> <a href="#">Cover Letter Samples</a> </li>
+                                <li> <a class="scroll-to" href="/#pricing">Pricing</a> </li>
+                                <li> <a class="scroll-to" href="/#samples">Resume Samples</a> </li>
+                                <li> <a class="scroll-to" href="/#samples">Cover Letter Samples</a> </li>
                             </ul>
                         </div>
                         <div class="bar__module">
-                            <a class="btn btn--sm type--uppercase btn--primary" href="#purchase-template"> <span class="btn__text">
+                            <a class="btn btn--sm type--uppercase btn--primary scroll-to" href="#critique"> <span class="btn__text">
                             Free Critique</span> </a>
                         </div>
                     </div>
@@ -77,36 +76,47 @@
       <div class="col-sm-6 col-md-7">
         <div class="switchable__text">
           <h2>The resume writing service for <b>job seekers</b>.</h2>
+          <!-- <h2>The resume writing service for <b>career growth</b>.</h2> -->
+          <!-- <h2>The <b>career growth hack</b>.</h2> -->
+          <!-- <h2>The growth hack for <b>career growth</b>.</h2> -->
           <p class="lead">Carefully crafted <b>resumes</b> and <b>cover letters</b> that get more interviews.&nbsp;</p>
-          <!-- <a class="btn type--uppercase btn--primary" href="#purchase-template"> <span class="btn__text">
-            Give Yourself A Raise</span> </a> -->
+          <a class="btn type--uppercase btn--primary" href="#purchase-template"> <span class="btn__text">
+            Start Your Next Chapter</span> </a>
         </div>
       </div>
-      <div class="col-sm-6 col-md-5"> <img alt="Image" class="block" src="/assets/img/art-1.jpg"> </div>
+      <div class="col-sm-6 col-md-5">
+        <img alt="Image" class="block" src="/assets/img/art-1.jpg">
+      </div>
     </div>
   </div>
 </section>
 <section class="subscribe-form-2 space--xs imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <p class="lead">Request a free professional resume critique!</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="lead">Request a free professional resume critique!</p>
+      </div>
+      <div class="col-md-6">
+        <form action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f300c9cce8" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your email address.">
+          <div class="row">
+            <div class="col-md-7 col-sm-6">
+              <input class="validate-required validate-email" type="email" name="EMAIL" placeholder="Email Address">
             </div>
-            <div class="col-md-6">
-                <form action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f300c9cce8" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your email address.">
-                    <div class="row">
-                        <div class="col-md-7 col-sm-6"> <input class="validate-required validate-email" type="email" name="EMAIL" placeholder="Email Address"> </div>
-                        <div class="col-md-5 col-sm-6"> <button class="btn btn--primary type--uppercase" type="submit">Send Request</button> </div>
-                    </div>
-                </form>
+            <div class="col-md-5 col-sm-6">
+              <button class="btn btn--primary type--uppercase" type="submit">Send Request</button>
             </div>
-        </div>
+          </div>
+        </form>
+      </div>
     </div>
+  </div>
 </section>
 <section class="switchable feature-large feature-large-13">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6"> <img alt="Image" class="border--round box-shadow-wide" src="/assets/img/mock-resume.png"> </div>
+      <div class="col-sm-6">
+        <img alt="Image" class="border--round box-shadow-wide" src="/assets/img/mock-resume.png">
+      </div>
       <div class="col-sm-6 col-md-5">
         <div class="switchable__text">
           <h2>Presentation is everything.</h2>
@@ -167,10 +177,12 @@
     </div>
   </div>
 </section>
-<section class="text-center cta cta-4 space--xxs border--bottom imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+<section id="pricing" class="text-center cta cta-4 space--xxs border--bottom imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12"> <span class="label label--inline">Guaranteed!</span> <span>I guarantee you will get <b>2x more job interviews</b> over the next 60 days or I’ll rewrite your resume for free.</span> </div>
+      <div class="col-sm-12">
+        <span class="label label--inline">Guaranteed!</span> <span>I guarantee you will get <b>2x more job interviews</b> over the next 60 days or I’ll rewrite your resume for free.</span>
+      </div>
     </div>
   </div>
 </section>
@@ -196,7 +208,7 @@
           <h3>Professional Pitch</h3> <span class="h2"><strong>$179.99</strong></span> <span class="type--fine-print">Professionally Written Resume &amp; Cover Letter</span> <span class="label">Popular!</span>
           <hr>
           <ul>
-            <li><span class="checkmark bg--primary-1"> </span><b>Best Foot Forward Package</b>, Plus...</li>
+            <li><span class="checkmark bg--primary-1"> </span><b>Best Foot Forward Package</b> plus...</li>
             <li><span class="checkmark bg--primary-1"> </span><b>Cover Letter</b> - Pitch your skills as solutions. Written with 7 years of marketing experience.</li>
             <li><span class="checkmark bg--primary-1"> </span><b>Increased Callback Guarantee</b> - Employers are 40% more likely to read a resume accompanied by a cover letter.</li>
           </ul>
@@ -208,7 +220,7 @@
           <h3>Social Media Suit &amp; Tie</h3> <span class="h2"><strong>$229.99</strong></span> <span class="type--fine-print">Professionally Written Resume, Cover Letter, LinkedIn Profile, &amp; Linkedin Recommendation</span>
           <hr>
           <ul>
-            <li><span class="checkmark bg--primary-1"> </span><b>Professional Pitch Package</b>, Plus...</li>
+            <li><span class="checkmark bg--primary-1"> </span><b>Professional Pitch Package</b> plus...</li>
             <li><span class="checkmark bg--primary-1"> </span><b>LinkedIn Profile</b> - 97% of employers look up candidates on LinkedIn.</li>
             <li><span class="checkmark bg--primary-1"> </span><b>Get Recommended</b> - A LinkedIn recommendation ready for endorsement from your network.</li>
           </ul>
@@ -220,35 +232,38 @@
     </div>
   </div>
 </section>
-<section class="bg--secondary">
+<section id="samples" class="bg--secondary">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-
-        <div class="card card-2 text-center">
-          <div class="card__top"> <!--<span class="label">New</span>-->
-            <a href="#"> <img alt="Image" src="/assets/img/preview-coverletter.png"> </a>
-          </div>
-          <div class="card__body">
-            <h4>Cover Letter Pitch Sample</h4> <span class="type--fade">Video Tutorial Series</span>
-            <p> Construct mockups or production-ready pages in-browser with Variant Page Builder </p>
-          </div>
-          <div class="card__bottom text-center">
-            BUTTON
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card card-2 text-center">
+        <div class="card card-2 text-left">
           <div class="card__top">
             <a href="#"> <img alt="Image" src="/assets/img/preview-resume.png"> </a>
           </div>
           <div class="card__body">
-            <h4>Professional Resume Sample</h4> <span class="type--fade">Understanding the fundamentals</span>
-            <p> Construct mockups or production-ready pages in-browser with Variant Page Builder </p>
+            <h4>Professional Resume Sample</h4>
+            <p>Trim the fat, and focus on what matters - your wins and accomplishments. Take a look at how powerful an accomplishment based resume is.</p>
           </div>
           <div class="card__bottom text-center">
-            BUTTON
+            <a class="btn btn--primary" href="/resume-writing-sample"> <span class="btn__text">
+              Read A Sample Resume
+            </span> </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card card-2 text-left">
+          <div class="card__top"> <!--<span class="label">New</span>-->
+            <a href="#"> <img alt="Image" src="/assets/img/preview-coverletter.png"> </a>
+          </div>
+          <div class="card__body">
+            <h4>Cover Letter Sample</h4>
+            <p>A great cover letter convinces the recipient that it would be a mistake to pass up an opportunity to interview an incredibly valuable asset.</p>
+          </div>
+          <div class="card__bottom text-center">
+            <a class="btn btn--primary" href="/cover-letter-sample"> <span class="btn__text">
+              Read A Sample Cover Letter
+            </span> </a>
           </div>
         </div>
       </div>
@@ -286,7 +301,7 @@
   </div>
 </section>
 
-        <section class="subscribe-form-2 space--xs imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+        <section id="critique" class="subscribe-form-2 space--xs imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -337,6 +352,21 @@
 <script src="/assets/js/countdown.min.js"></script>
 <script src="/assets/js/smooth-scroll.min.js"></script>
 <script src="/assets/js/scripts.js"></script>
+
+<script>
+  jQuery(document).ready(function($) {
+    $('a[href^="/#"], a[href^="#"]').bind('click.smoothscroll',function (e) {
+      var target = this.hash,
+          $target = $(target);
+
+      $('html, body').stop().animate( {
+        'scrollTop': $target.offset().top
+      }, 500, 'swing', function () {
+        window.location.hash = target;
+      } );
+    } );
+  } );
+</script>
 
   </body>
 

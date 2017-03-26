@@ -6,3 +6,18 @@
 <script src="{{ "/assets/js/countdown.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/smooth-scroll.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
+
+<script>
+  jQuery(document).ready(function($) {
+    $('a[href^="/#"], a[href^="#"]').bind('click.smoothscroll',function (e) {
+      var target = this.hash,
+          $target = $(target);
+
+      $('html, body').stop().animate( {
+        'scrollTop': $target.offset().top
+      }, 500, 'swing', function () {
+        window.location.hash = target;
+      } );
+    } );
+  } );
+</script>
