@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Cover Letter Pitch Sample"
+title:  "Cover Letter Pitch Samples"
 permalink: /cover-letter-sample
 ---
 
