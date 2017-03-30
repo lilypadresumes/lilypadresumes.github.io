@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  "Professional Resume Sample"
-permalink: /resume-writing-sample
 ---
 <!-- ### [Download a sample PDF]({{ "/assets/img/full-resume.pdf " | relative_url }}) -->
 

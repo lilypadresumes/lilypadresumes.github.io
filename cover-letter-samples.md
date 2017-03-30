@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  "Cover Letter Pitch Samples"
-permalink: /cover-letter-sample
 ---
 
 ## Tech Startup Letter
