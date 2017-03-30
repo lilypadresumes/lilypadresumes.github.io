@@ -1,19 +1,4 @@
-/**!**************/
-/**! Contents **/
-
-/**!**************/
-/**!**************/
-/**! Place Custom Styles Below **/
-
-.page-title {
-  margin-bottom: 1em;
-}
-
-.page ul {
-  list-style: inside;
-  margin-left: 2em;
-}
-
+/**! Homepage Sample Box Buttons **/
 .card-2 .card__bottom {
   padding: 0;
 
@@ -23,4 +8,20 @@
     padding: 0.92857143em 0;
     margin: 0;
   }
+}
+
+/**! Page Content **/
+.page-title {
+  margin-bottom: 1em;
+}
+
+.page ul {
+  list-style: inside;
+  margin-left: 2em;
+}
+
+/**! Blog Archive **/
+
+.article__excerpt a:hover{
+  text-decoration: none;
 }

@@ -52,10 +52,11 @@
                     <div class="col-md-10 col-sm-12 text-right text-left-xs text-left-sm">
                         <div class="bar__module">
                             <ul class="menu-horizontal text-left">
-                                <li> <a class="scroll-to" href="/#pricing">Pricing</a> </li>
-                                <li> <a class="scroll-to" href="/#samples">Resume Samples</a> </li>
-                                <li> <a class="scroll-to" href="/#samples">Cover Letter Samples</a> </li>
-                                <li> <a class="scroll-to" href="/contact">Contact</a> </li>
+                                <li> <a href="/pricing">Pricing</a> </li>
+                                <li> <a href="/resume-writing-sample">Resume Samples</a> </li>
+                                <li> <a href="/cover-letter-sample">Cover Letter Samples</a> </li>
+                                <li> <a href="/blog">Blog</a> </li>
+                                <li> <a href="/contact">Contact</a> </li>
                             </ul>
                         </div>
                         <div class="bar__module">
@@ -81,8 +82,7 @@
           <!-- <h2>The <b>career growth hack</b>.</h2> -->
           <!-- <h2>The growth hack for <b>career growth</b>.</h2> -->
           <p class="lead">Carefully crafted <b>resumes</b> and <b>cover letters</b> that get more interviews.&nbsp;</p>
-          <a class="btn type--uppercase btn--primary" href="#purchase-template"> <span class="btn__text">
-            Start Your Next Chapter</span> </a>
+          <a class="btn type--uppercase btn--primary" href="#pricing"> <span class="btn__text">Start Your Next Chapter</span> </a>
         </div>
       </div>
       <div class="col-sm-6 col-md-5">
@@ -178,6 +178,7 @@
     </div>
   </div>
 </section>
+
 <section id="pricing" class="text-center cta cta-4 space--xxs border--bottom imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
   <div class="container">
     <div class="row">
@@ -233,6 +234,8 @@
     </div>
   </div>
 </section>
+
+
 <section id="samples" class="bg--secondary">
   <div class="container">
     <div class="row">
@@ -302,7 +305,7 @@
   </div>
 </section>
 
-        <section id="critique" class="subscribe-form-2 space--xs imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+<section id="critique" class="subscribe-form-2 space--xs imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -319,7 +322,9 @@
         </div>
     </div>
 </section>
-<footer class="footer-3 text-center-xs space--xs">
+
+
+        <footer class="footer-3 text-center-xs space--xs">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -362,7 +367,7 @@
 
       $('html, body').stop().animate( {
         'scrollTop': $target.offset().top
-      }, 500, 'swing', function () {
+      }, 1000, 'swing', function () {
         window.location.hash = target;
       } );
     } );

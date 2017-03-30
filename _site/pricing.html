@@ -52,10 +52,11 @@
                     <div class="col-md-10 col-sm-12 text-right text-left-xs text-left-sm">
                         <div class="bar__module">
                             <ul class="menu-horizontal text-left">
-                                <li> <a class="scroll-to" href="/#pricing">Pricing</a> </li>
-                                <li> <a class="scroll-to" href="/#samples">Resume Samples</a> </li>
-                                <li> <a class="scroll-to" href="/#samples">Cover Letter Samples</a> </li>
-                                <li> <a class="scroll-to" href="/contact">Contact</a> </li>
+                                <li> <a href="/pricing">Pricing</a> </li>
+                                <li> <a href="/resume-writing-sample">Resume Samples</a> </li>
+                                <li> <a href="/cover-letter-sample">Cover Letter Samples</a> </li>
+                                <li> <a href="/blog">Blog</a> </li>
+                                <li> <a href="/contact">Contact</a> </li>
                             </ul>
                         </div>
                         <div class="bar__module">
@@ -126,6 +127,8 @@
     </div>
   </div>
 </section>
+
+
 <section>
   <div class="container">
     <div class="row">
@@ -172,7 +175,7 @@
   </div>
 </section>
 
-        <section id="critique" class="subscribe-form-2 space--xs imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+<section id="critique" class="subscribe-form-2 space--xs imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -189,7 +192,9 @@
         </div>
     </div>
 </section>
-<footer class="footer-3 text-center-xs space--xs">
+
+
+        <footer class="footer-3 text-center-xs space--xs">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -232,7 +237,7 @@
 
       $('html, body').stop().animate( {
         'scrollTop': $target.offset().top
-      }, 500, 'swing', function () {
+      }, 1000, 'swing', function () {
         window.location.hash = target;
       } );
     } );

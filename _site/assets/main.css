@@ -5070,17 +5070,17 @@ footer.footer-7 { padding: 1.85714286em 0; }
   .footer-7 .social-list { margin-top: 1.85714286em; }
   .footer-1 .social-list { margin-top: 1.85714286em; }
   .footer-1 .logo { display: block; margin-top: 1.85714286em; margin-bottom: 0.92857143em; margin-left: auto; margin-right: auto; } }
-/**!**************/
-/**! Contents **/
-/**!**************/
-/**!**************/
-/**! Place Custom Styles Below **/
+/**! Homepage Sample Box Buttons **/
+.card-2 .card__bottom { padding: 0; }
+.card-2 .card__bottom .btn { width: 100%; border-radius: 0 0 6px 6px; padding: 0.92857143em 0; margin: 0; }
+
+/**! Page Content **/
 .page-title { margin-bottom: 1em; }
 
 .page ul { list-style: inside; margin-left: 2em; }
 
-.card-2 .card__bottom { padding: 0; }
-.card-2 .card__bottom .btn { width: 100%; border-radius: 0 0 6px 6px; padding: 0.92857143em 0; margin: 0; }
+/**! Blog Archive **/
+.article__excerpt a:hover { text-decoration: none; }
 
 .menu > li { font-family: 'Raleway','Verdana','Helvetica', sans-serif; }
 
