@@ -19,9 +19,9 @@ collections:
 #  - jekyll-contentblocks
 
 # URL Vars
-#urls:
-#  twitter:            https://twitter.com/
-#  facebook:           https://www.facebook.com/
+urls:
+  twitter:            https://twitter.com/lilypadjobs
+  facebook:           https://www.facebook.com/LilyPad-Resumes-1852637254993095/
 
 # Build settings
 markdown: kramdown
