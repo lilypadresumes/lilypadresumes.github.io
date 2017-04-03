@@ -2,7 +2,7 @@
 title: Resume & Cover Letter Experts
 description: The resume writing service for job seekers. Carefully crafted resumes and cover letters that get more interviews. 
 baseurl: ""
-url: "http://lilypadresumes.com"
+url: "https://lilypadresumes.com"
 email: gethired@lilypadresumes.com
 timezone: America/Winnipeg
 google_analytics: UA-96566297-1
@@ -10,9 +10,12 @@ repository: chrissavoie/lilypadresumes
 
 # Collections
 collections:
-   posts:
-     output: true
-     permalink: /:title
+  posts:
+    output: true
+    permalink: /:title
+  products:
+    output: true
+    permalink: /:title
 
 # Extras
 #gems:
