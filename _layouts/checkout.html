@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+<section>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-sm-8">
+        <h1 class="page-title">Checkout</h1>
+        <ol class="breadcrumbs">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/pricing">{{ page.title }}</a>
+          </li>
+          <li>Checkout</li>
+        </ol>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8 cart-customer-details">
+        <h4>Billing Details</h4>
+          <div class="row">
+            <form class="cart-form">
+              <div class="col-sm-6">
+                <label>Full Name:</label>
+                <input type="text" name="name" required />
+              </div>
+              <div class="col-sm-6">
+                <label>Email Address:</label>
+                <input type="email" name="email" required />
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="boxed boxed--border cart-total">
+                <div class="col-xs-6">
+                  <span class="h5">Total (USD):</span>
+                </div>
+                <div class="col-xs-6 text-right">
+                  <span class="h5">$ {{ page.price }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2 col-md-offset-10 col-sm-3 col-sm-offset-9 text-right text-center-xs">
+              <button type="submit" class="btn btn--primary type--uppercase">Checkout</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      
+      <div class="col-sm-4">
+        <div class="pricing pricing-1 boxed boxed--lg boxed--border">
+          <h3>{{ page.title }}</h3> <span class="h2"><strong>${{ page.price }}</strong></span> <span class="type--fine-print">{{ page.description }}</span>
+          <hr>
+          {{ content }}
+          <a class="btn btn--primary" href="/professional-pitch"> <span class="btn__text">
+            Upgrade to Cover Letter for $50+
+          </span> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end of container-->
+</section>
+
+<!-- Heroku Stripe Checkout Integration -->
+<!-- https://github.com/aft3rlife/heroku-stripe-checkout -->
+
+<form action="https://lilypad-checkout.herokuapp.com/" method="POST">
+    <script
+        src="https://checkout.stripe.com/checkout.js"
+        class="stripe-button btn btn--primary"
+        data-key="pk_test_njAZ2mTZJxgqD2JsmdUTsm6q"
+        data-name="Lilypad Career Marketing"
+        data-description="Resume Test Nonsense"
+        data-amount="12000"
+    ></script>
+    <input name="amount" value="12000" type="hidden">
+    <input name="description" value="Resume Test Nonsense" type="hidden">
+    <!-- <input name="metadata" value="YOUR_METADATA" type="hidden"> -->
+</form>
