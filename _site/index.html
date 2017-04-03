@@ -200,6 +200,7 @@
             <li><span class="checkmark bg--primary-1"> </span><b>Professionally Written Resume</b> - Highlight your career wins and stand out.</li>
             <li><span class="checkmark bg--primary-1"> </span><b>ATS Keyword Optimized</b> - Get flagged for callbacks through Applicant Tracking Systems(ATS).</li>
           </ul>
+          
           <a class="btn btn--primary" href="#"> <span class="btn__text">
             Purchase Package
           </span> </a>
@@ -319,13 +320,6 @@
                     </div>
                 </form>
             </div>
-            
-            <!-- <div class="col-md-9">
-                <p class="lead">Request a free professional resume critique!</p>
-            </div>
-            <div class="col-md-3">
-                <a href="mailto:gethired@lilypadresumes.com?Subject=Free%20Resume%20Critique%20Request&Body=I%27ve%20attached%20my%20resume%20to%20take%20advantage%20of%20your%20free%20critique%20offer%21" class="btn btn--primary type--uppercase">Free Critique</a>
-            </div> -->
         </div>
     </div>
 </section>
@@ -340,7 +334,7 @@
       <div class="col-sm-6 text-right text-center-xs">
         <ul class="social-list list-inline list--hover">
           <!-- <li><a href="#"><i class="socicon socicon-google icon icon--xs"></i></a></li> -->
-          <li><a href="https://twitter.com/LilypadJobs" target="_blank"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
+          <li><a href="https://twitter.com/lilypadjobs" target="_blank"><i class="socicon socicon-twitter icon icon--xs"></i></a></li>
           <li><a href="https://www.facebook.com/LilyPad-Resumes-1852637254993095/" target="_blank"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
           <!-- <li><a href="#"><i class="socicon socicon-instagram icon icon--xs"></i></a></li> -->
         </ul>
@@ -367,7 +361,7 @@
 <script src="/assets/js/scripts.js"></script>
 
 <script>
-  jQuery(document).ready(function($) {
+  $(document).ready(function($) {
     $('a[href^="/#"], a[href^="#"]').bind('click.smoothscroll',function (e) {
       var target = this.hash,
           $target = $(target);
@@ -376,9 +370,15 @@
         'scrollTop': $target.offset().top
       }, 1000, 'swing', function () {
         window.location.hash = target;
-      } );
-    } );
-  } );
+      });
+    });
+    
+    var $sub = $("#_subject");
+    $("#email").change( function() {
+      $sub.val("Lilypad Message From " + $(this).val());
+    });
+    
+  });
 </script>
 
   </body>

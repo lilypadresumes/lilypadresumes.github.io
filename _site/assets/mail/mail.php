@@ -16,7 +16,7 @@ $outgoingServerSecurity     = 'tls';                 // Options: 'ssl' , 'tls' ,
 
 // Sending Account Settings - replace these details with an email account held on the SMTP server entered above.
 // These 2 settings are only required if you choose 'smtp' for emailMethod above.
-$sendingAccountUsername     = 'chris@lilypadresumes.com';
+$sendingAccountUsername     = 'gethired@lilypadresumes.com';
 $sendingAccountPassword     = '';
 
 // Recipient (To:) Details  - Change this to the email details of who will receive all the emails from the website.
