@@ -43,10 +43,15 @@ layout: default
               <script
                   src="https://checkout.stripe.com/checkout.js"
                   class="stripe-button"
-                  data-key="pk_test_njAZ2mTZJxgqD2JsmdUTsm6q"
+                  {% if jekyll.environment == 'production' %}
+                    data-key="pk_live_PfIORHA6ZTq0ODa55vEWIOFT"
+                  {% else %}
+                    data-key="pk_test_njAZ2mTZJxgqD2JsmdUTsm6q"
+                  {% endif %}
                   data-name="Lilypad Career Marketing"
                   data-description="{{ page.title }}"
                   data-amount="{{ page.charge }}"
+                  data-currency="usd"
               ></script>
               <input name="amount" value="{{ page.charge }}" type="hidden">
               <input name="description" value="Resume Test Nonsense" type="hidden">
