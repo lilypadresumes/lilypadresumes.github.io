@@ -10,6 +10,77 @@
   }
 }
 
+/**! Critique File Input **/
+#critique input[type="email"] {
+  text-align: center;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  margin-top: -0.25em;
+  margin-right: 0.25em;
+}
+
+/**! Pricing Card **/
+
+.pricing-1 ul {
+  margin-bottom: 4em;
+}
+
+.pricing-1 form.stripe {
+  position: static;
+  
+  button {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    
+    span {
+      height: 100%;
+      line-height: 42px;
+    }
+  }
+}
+/**! Checkout Page Feature List **/
+.feature-2 {
+  
+  i {
+    width: 15%;
+  }
+  
+  .feature__body {
+    width: 85%
+  }
+}
+
 /**! Page Content **/
 .page-title {
   margin-bottom: 1em;

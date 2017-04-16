@@ -3,7 +3,8 @@ layout: checkout
 title: Best Foot Forward
 description: Professionally Written Resume
 price: 129.99
+charge: 12999
 ---
-* **90 Min Consultation** - One on one interview to draw out your strengths.
-* **Professionally Written Resume** - Highlight your career wins and stand out.
-* **ATS Keyword Optimized** - Get flagged for callbacks through Applicant Tracking Systems(ATS).
+<li><span class="checkmark bg--primary-1"> </span><b>90 Min Consultation</b> - One on one interview to draw out your strengths.</li>
+<li><span class="checkmark bg--primary-1"> </span><b>Professionally Written Resume</b> - Highlight your career wins and stand out.</li>
+<li><span class="checkmark bg--primary-1"> </span><b>ATS Keyword Optimized</b> - Get flagged for callbacks through Applicant Tracking Systems(ATS).</li>

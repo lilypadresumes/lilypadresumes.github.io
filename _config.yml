@@ -16,6 +16,9 @@ collections:
   products:
     output: true
     permalink: /:title
+  sample:
+    output: true
+    permalink: /sample/:title
 
 # Extras
 #gems:

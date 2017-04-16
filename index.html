@@ -21,27 +21,9 @@ layout: default
     </div>
   </div>
 </section>
-<section class="subscribe-form-2 space--xs imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <p class="lead">Request a free professional resume critique!</p>
-      </div>
-      <div class="col-md-6">
-        <form action="//mrare.us8.list-manage.com/subscribe/post?u=77142ece814d3cff52058a51f&amp;id=f300c9cce8" data-success="Thanks for signing up.  Please check your inbox for a confirmation email." data-error="Please provide your email address.">
-          <div class="row">
-            <div class="col-md-7 col-sm-6">
-              <input class="validate-required validate-email" type="email" name="EMAIL" placeholder="Email Address">
-            </div>
-            <div class="col-md-5 col-sm-6">
-              <button class="btn btn--primary type--uppercase" type="submit">Send Request</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
+
+{% include critique.html %}
+
 <section class="switchable feature-large feature-large-13">
   <div class="container">
     <div class="row">
@@ -57,7 +39,7 @@ layout: default
             <p>A custom, modern resume and an effective cover letter pitch <b><span>written by a professional marketer.</span></b></p>
           </div>
           <div class="text-block">
-            <h5>🕵 &nbsp;One-On-One Guidance</h5>
+            <h5>👥 &nbsp;One-On-One Guidance</h5>
             <p>One-on-one guidance from your writer/marketer on how to think about your skills &amp; accomplishments.</p>
           </div>
           <div class="text-block">
@@ -124,7 +106,7 @@ layout: default
             <p>Trim the fat, and focus on what matters - your wins and accomplishments. Take a look at how powerful an accomplishment based resume is.</p>
           </div>
           <div class="card__bottom text-center">
-            <a class="btn btn--primary" href="/resume-writing-sample"> <span class="btn__text">
+            <a class="btn btn--primary" href="/sample/resume"> <span class="btn__text">
               Read A Sample Resume
             </span> </a>
           </div>
@@ -140,7 +122,7 @@ layout: default
             <p>A great cover letter convinces the recipient that it would be a mistake to pass up an opportunity to interview an incredibly valuable asset.</p>
           </div>
           <div class="card__bottom text-center">
-            <a class="btn btn--primary" href="/cover-letter-samples"> <span class="btn__text">
+            <a class="btn btn--primary" href="/sample/cover-letter"> <span class="btn__text">
               Read A Sample Cover Letter
             </span> </a>
           </div>
@@ -149,35 +131,7 @@ layout: default
     </div>
   </div>
 </section>
-<section id="testimonials" class="text-center bg--secondary">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-sm-10">
-        <div class="slider" data-paging="true">
-          <ul class="slides">
-            <li>
-              <div class="testimonial">
-                <blockquote> “I appreciate your help so much, it has been so much easier to send out applications now and best of all I'm no longer lost in the void of every other person trying to get remote work.” </blockquote>
-                <h5>Dana</h5> <span>Full Stack Software Engineer - USA</span>
-              </div>
-            </li>
-            <li>
-              <div class="testimonial">
-                <blockquote> “I love the resume and cover letter. It's getting attention from big banks and even government. My phone’s been blowing up and I was just offered a job at&nbsp;<b>$180k/yr</b>!” </blockquote>
-                <h5>Chris</h5> <span>User Experience Designer — Sydney, Aus.</span>
-              </div>
-            </li>
-            <li>
-              <div class="testimonial">
-                <blockquote> “LilyPad helped me discover and highlight the best parts of my work and personal history and sell myself in a way I had never thought of.” </blockquote>
-                <h5>Daniel</h5> <span>Adaptive Catalyst — Edmonton, CA.</span>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
+{% include testimonials.html %}
 
 {% include critique.html %}

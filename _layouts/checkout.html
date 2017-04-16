@@ -2,86 +2,90 @@
 layout: default
 ---
 
-<section>
+{% include guarantee.html %}
+
+<section class="switchable">
   <div class="container">
-    
     <div class="row">
-      <div class="col-sm-8">
-        <h1 class="page-title">Checkout</h1>
-        <ol class="breadcrumbs">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/pricing">{{ page.title }}</a>
-          </li>
-          <li>Checkout</li>
-        </ol>
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-8 cart-customer-details">
-        <h4>Billing Details</h4>
-          <div class="row">
-            <form class="cart-form">
-              <div class="col-sm-6">
-                <label>Full Name:</label>
-                <input type="text" name="name" required />
+      <!-- <div class="col-sm-6 col-md-5"> -->
+      <div class="col-md-6">
+        <div class="switchable__text">
+          <div class="switchable__text">
+            <h2>A process designed<br class="hidden-xs hidden-sm"> to support you succeed</h2>
+            <p class="lead"> From the time you book your consultation to the time your hired I'm invested in your success. <strong>Weekly check-ins and application guidance</strong> ensure you aren't left to flounder. </p>
+            <div class="feature feature-2"> <i class="icon icon-Credit-Card2 color--primary"></i>
+              <div class="feature__body">
+                <h5>Step 1: Secure Checkout</h5>
+                <p>Checkout securely using your credit card. Powered by Stripe.</p>
               </div>
-              <div class="col-sm-6">
-                <label>Email Address:</label>
-                <input type="email" name="email" required />
-              </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="boxed boxed--border cart-total">
-                <div class="col-xs-6">
-                  <span class="h5">Total (USD):</span>
-                </div>
-                <div class="col-xs-6 text-right">
-                  <span class="h5">$ {{ page.price }}</span>
-                </div>
+            </div>
+            <div class="feature feature-2"> <i class="icon icon-Mail-Unread color--primary"></i>
+              <div class="feature__body">
+                <h5>Step 2: Book Consultation</h5>
+                <p>Check your inbox for an inviation to book your consultation.</p>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-2 col-md-offset-10 col-sm-3 col-sm-offset-9 text-right text-center-xs">
-              <button type="submit" class="btn btn--primary type--uppercase">Checkout</button>
-            </div>
-          </div>
-        </form>
+        </div>
       </div>
-      
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-4 col-md-pull-1 col-xs-12">
         <div class="pricing pricing-1 boxed boxed--lg boxed--border">
-          <h3>{{ page.title }}</h3> <span class="h2"><strong>${{ page.price }}</strong></span> <span class="type--fine-print">{{ page.description }}</span>
+          <h3>{{ page.title }}</h3> <span class="h2"><strong>${{ page.price }}</strong></span> <span class="type--fine-print">{{ page.description }}</span > <!--<span class="label">2X Callback Guarantee</span>-->
           <hr>
-          {{ content }}
-          <a class="btn btn--primary" href="/professional-pitch"> <span class="btn__text">
-            Upgrade to Cover Letter for $50+
-          </span> </a>
+          <ul>
+            {{ page.content }}
+          </ul>
+          
+          <!-- Heroku Stripe Checkout Integration -->
+          <!-- https://github.com/aft3rlife/heroku-stripe-checkout -->
+
+          <form class="stripe" action="https://lilypad-checkout.herokuapp.com/" method="POST">
+              <script
+                  src="https://checkout.stripe.com/checkout.js"
+                  class="stripe-button"
+                  data-key="pk_test_njAZ2mTZJxgqD2JsmdUTsm6q"
+                  data-name="Lilypad Career Marketing"
+                  data-description="{{ page.title }}"
+                  data-amount="{{ page.charge }}"
+              ></script>
+              <input name="amount" value="{{ page.charge }}" type="hidden">
+              <input name="description" value="Resume Test Nonsense" type="hidden">
+              <!-- <input name="metadata" value="YOUR_METADATA" type="hidden"> -->
+          </form>
+          <!-- <a class="btn btn--primary" href="#"> <span class="btn__text">Purchase Plan</span> </a> -->
         </div>
       </div>
     </div>
   </div>
-  <!--end of container-->
 </section>
 
-<!-- Heroku Stripe Checkout Integration -->
-<!-- https://github.com/aft3rlife/heroku-stripe-checkout -->
-
-<form action="https://lilypad-checkout.herokuapp.com/" method="POST">
-    <script
-        src="https://checkout.stripe.com/checkout.js"
-        class="stripe-button btn btn--primary"
-        data-key="pk_test_njAZ2mTZJxgqD2JsmdUTsm6q"
-        data-name="Lilypad Career Marketing"
-        data-description="Resume Test Nonsense"
-        data-amount="12000"
-    ></script>
-    <input name="amount" value="12000" type="hidden">
-    <input name="description" value="Resume Test Nonsense" type="hidden">
-    <!-- <input name="metadata" value="YOUR_METADATA" type="hidden"> -->
-</form>
+<section id="testimonials" class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-10">
+        <div class="slider" data-paging="true">
+          <ul class="slides">
+            <li>
+              <div class="testimonial">
+                <blockquote> “I appreciate your help so much, it has been so much easier to send out applications now and best of all I'm no longer lost in the void of every other person trying to get remote work.” </blockquote>
+                <h5>Dana</h5> <span>Full Stack Software Engineer - USA</span>
+              </div>
+            </li>
+            <li>
+              <div class="testimonial">
+                <blockquote> “I love the resume and cover letter. It's getting attention from big banks and even government. My phone’s been blowing up and I was just offered a job at&nbsp;<b>$180k/yr</b>!” </blockquote>
+                <h5>Chris</h5> <span>User Experience Designer — Sydney, Aus.</span>
+              </div>
+            </li>
+            <li>
+              <div class="testimonial">
+                <blockquote> “LilyPad helped me discover and highlight the best parts of my work and personal history and sell myself in a way I had never thought of.” </blockquote>
+                <h5>Daniel</h5> <span>Adaptive Catalyst — Edmonton, CA.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
