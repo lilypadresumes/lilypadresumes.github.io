@@ -36,28 +36,8 @@ layout: default
             {{ page.content }}
           </ul>
           
-          <!-- Heroku Stripe Checkout Integration -->
-          <!-- https://github.com/aft3rlife/heroku-stripe-checkout -->
-
-          <form class="stripe" action="https://lilypad-checkout.herokuapp.com/" method="POST">
-              <script
-                  src="https://checkout.stripe.com/checkout.js"
-                  class="stripe-button"
-                  {% if jekyll.environment == 'production' %}
-                    data-key="pk_live_PfIORHA6ZTq0ODa55vEWIOFT"
-                  {% else %}
-                    data-key="pk_test_njAZ2mTZJxgqD2JsmdUTsm6q"
-                  {% endif %}
-                  data-name="Lilypad Career Marketing"
-                  data-description="{{ page.title }}"
-                  data-amount="{{ page.charge }}"
-                  data-currency="usd"
-              ></script>
-              <input name="amount" value="{{ page.charge }}" type="hidden">
-              <input name="description" value="Resume Test Nonsense" type="hidden">
-              <!-- <input name="metadata" value="YOUR_METADATA" type="hidden"> -->
-          </form>
-          <!-- <a class="btn btn--primary" href="#"> <span class="btn__text">Purchase Plan</span> </a> -->
+          {% include stripe.html %}
+          
         </div>
       </div>
     </div>
