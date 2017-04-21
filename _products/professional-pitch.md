@@ -2,8 +2,8 @@
 layout: checkout
 title: Professional Pitch
 description: Professionally Written Resume & Cover Letter
-price: 179.99
-charge: 17999
+price: 159.99
+charge: 15999
 ---
 <li><span class="checkmark bg--primary-1"> </span><b>Best Foot Forward Package</b></li>
 <li><span class="checkmark bg--primary-1"> </span><b>Cover Letter</b> - Pitch your skills as solutions. Written with 7 years of marketing experience.</li>
