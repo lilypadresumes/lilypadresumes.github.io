@@ -62,16 +62,21 @@
     });
     
     $('.upload').on('click', function() {
-      var instance = ".critique[instance=\"" + $(this).parents('.critique').attr('instance') + "\"]";
-      var email = encodeURIComponent($(instance).find('input[type="email"]')[0].value);
-      var encodedEmail = encodeURIComponent(email).replace(".", "");
-      var file = $(instance).find('input[type="file"]')[0].files[0];
+      var $critique = $(this).parents('.critique'),
+          instance = ".critique[instance=\"" + $critique.attr('instance') + "\"]",
+          email = encodeURIComponent($(instance).find('input[type="email"]')[0].value),
+          encodedEmail = encodeURIComponent(email).replace(".", ""),
+          file = $(instance).find('input[type="file"]')[0].files[0]
       
       var req = new XMLHttpRequest();
       req.open("POST", "https://lilypadmarketing.azurewebsites.net/api/critique/" + encodedEmail, true);
       req.setRequestHeader("Content-Type", "application/octet-stream");
       
       req.send(file);
+      
+      $critique.find('.submit').fadeOut();
+      $critique.find('.lead').text('Resume Submitted!');
+      
     });
     
 </script>
