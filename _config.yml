@@ -21,8 +21,9 @@ collections:
     permalink: /sample/:title
 
 # Extras
-#gems:
-#  - jekyll-contentblocks
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # URL Vars
 urls:
