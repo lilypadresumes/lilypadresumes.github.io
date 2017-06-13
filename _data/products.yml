@@ -1,0 +1,31 @@
+- name: Best Foot Forward
+  description: Professionally Written Resume
+  price: 120
+  compare-at: 150
+  charge: 12000
+  features:
+    - <b>90 Min Consultation</b> - One on one interview to draw out your strengths.
+    - <b>Professionally Written Resume</b> - Highlight your career wins and stand out.
+    - <b>ATS Keyword Optimized</b> - Get flagged for callbacks through Applicant Tracking Systems(ATS).
+
+- name: Professional Pitch
+  description: Professionally Written Resume & Cover Letter
+  price: 240
+  compare-at: 299
+  feaured: true
+  charge: 24000
+  features:
+    - <b>Best Foot Forward Package</b>
+    - <b>Cover Letter</b> - Pitch your skills as solutions. Written with 7 years of marketing experience.
+    - <b>Increased Callback Guarantee</b> - Employers are 40% more likely to read a resume accompanied by a cover letter.
+
+- name: Social Media Suit & Tie
+  slug: social-media-suit-tie
+  description: Professionally Written Resume, Cover Letter, LinkedIn Profile, & LinkedIn Recommendation
+  price: 290
+  compare-at: 360
+  charge: 29000
+  features:
+    - <b>Professional Pitch Package</b>
+    - <b>LinkedIn Profile</b> - 97% of employers look up candidates on LinkedIn.
+    - <b>Get Recommended</b> - A LinkedIn recommendation ready for an endorsement from your network.

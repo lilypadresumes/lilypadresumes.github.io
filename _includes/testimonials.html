@@ -4,24 +4,14 @@
       <div class="col-md-8 col-sm-10">
         <div class="slider" data-paging="true">
           <ul class="slides">
-            <li>
-              <div class="testimonial">
-                <blockquote> “I appreciate your help so much, it has been so much easier to send out applications now and best of all I'm no longer lost in the void of every other person trying to get remote work.” </blockquote>
-                <h5>Dana</h5> <span>Full Stack Software Engineer - USA</span>
-              </div>
-            </li>
-            <li>
-              <div class="testimonial">
-                <blockquote> “I love the resume and cover letter. It's getting attention from big banks and even government. My phone’s been blowing up and I was just offered a job at&nbsp;<b>$180k/yr</b>!” </blockquote>
-                <h5>Chris</h5> <span>User Experience Designer — Sydney, Aus.</span>
-              </div>
-            </li>
-            <li>
-              <div class="testimonial">
-                <blockquote> “LilyPad helped me discover and highlight the best parts of my work and personal history and sell myself in a way I had never thought of.” </blockquote>
-                <h5>Daniel</h5> <span>Adaptive Catalyst — Edmonton, CA.</span>
-              </div>
-            </li>
+            {% for testimonial in site.data.testimonials %}
+              <li>
+                <div class="testimonial">
+                  <blockquote> “{{ testimonial.quote }}” </blockquote>
+                  <h5>{{ testimonial.name }}</h5> <span>{{ testimonial.description }}</span>
+                </div>
+              </li>
+            {% endfor %}
           </ul>
         </div>
       </div>
