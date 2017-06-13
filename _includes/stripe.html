@@ -11,11 +11,11 @@
           data-key="pk_test_njAZ2mTZJxgqD2JsmdUTsm6q"
         {% endif %}
         data-name="Lilypad Career Marketing"
-        data-description="{{ page.title }}"
-        data-amount="{{ page.charge }}"
+        data-description="{{ item.title }}"
+        data-amount="{{ item.charge }}"
         data-currency="usd"
     ></script>
-    <input name="amount" value="{{ page.charge }}" type="hidden">
+    <input name="amount" value="{{ item.charge }}" type="hidden">
     <input name="description" value="Resume Test Nonsense" type="hidden">
     <!-- <input name="metadata" value="YOUR_METADATA" type="hidden"> -->
 </form>
