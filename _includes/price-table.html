@@ -31,9 +31,11 @@
               {% endfor %}
             </ul>
             
-            <a class="btn btn--primary" href="/{% if product.slug %}{{ product.slug }}{% else %}{{ product.name | slugify }}{% endif %}">
+            {% include calendly-modal.html %}
+            
+            <!-- <a class="btn btn--primary" href="/{% if product.slug %}{{ product.slug }}{% else %}{{ product.name | slugify }}{% endif %}">
               <span class="btn__text">Package Details</span>
-            </a>
+            </a> -->
           </div>
         </div>
       {% endfor %}
