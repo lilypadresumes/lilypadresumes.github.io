@@ -29,7 +29,7 @@ collections:
     permalink: /:title
   products:
     output: true
-    permalink: /:title
+    permalink: /details/:title
   sample:
     output: true
     permalink: /sample/:title
