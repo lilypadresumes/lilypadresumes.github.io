@@ -3,7 +3,7 @@ layout: page
 title: Payment Successful!
 ---
 
-## Step 1: <a href="http://lilypadresumes.youcanbook.me" target="_blank">Book your interview</a>
+## Step 1: <a href="http://lilypadresumes.com/calendar" target="_blank">Book your interview</a>
 
 If for whatever reason our schedules don't line up I'll re-arrange my schedule for you. Contact me at [chris@lilypadresumes.com](mailto:chris@lilypadresumes.com) so we can set something up.
 

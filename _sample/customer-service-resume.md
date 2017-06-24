@@ -1,5 +1,6 @@
 ---
-layout: resume
+layout: page
+column: wide
 title: Customer Service Resume Sample
 ---
 

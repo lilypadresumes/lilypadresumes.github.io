@@ -1,19 +1,23 @@
 ---
 layout: default
 ---
-<section class="page">
+<section class="page {% if page.bg == "dark" %}bg--dark{% endif %}">
   <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-sm-10">
+    {% if page.title %}
+      <div class="row">
+        <div class="{% if page.column == "full" %}col-md-12{% elsif page.column == "wide" %}col-md-9 col-sm-12{% else %}col-md-8 col-sm-10{% endif %}">
           <h1 class="page-title">{{ page.title | escape }}</h1>
         </div>
-    </div>
+      </div>
+    {% endif %}
     <div class="row">
-      <div class="col-md-8 col-sm-10">
+      <div class="{% if page.column == "full" %}col-md-12{% elsif page.column == "wide" %}col-md-9 col-sm-12{% else %}col-md-8 col-sm-10{% endif %}">
         {{ content }}
       </div>
     </div>
   </div>
 </section>
 
-{% include critique.html %}
+{% if page.critique != false %}
+  {% include critique.html %}
+{% endif %}

@@ -1,5 +1,6 @@
 ---
-layout: resume
+layout: page
+column: wide
 title: Art Director Resume Sample
 ---
 <style type="text/css">
