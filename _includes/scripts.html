@@ -65,7 +65,7 @@
       var $critique = $(this).parents('.critique'),
           instance = ".critique[instance=\"" + $critique.attr('instance') + "\"]",
           email = encodeURIComponent($(instance).find('input[type="email"]')[0].value),
-          encodedEmail = encodeURIComponent(email).replace(".", ""),
+          encodedEmail = encodeURIComponent(email).replace("@","AT").replace(".", ""),
           file = $(instance).find('input[type="file"]')[0].files[0]
       
       var req = new XMLHttpRequest();
