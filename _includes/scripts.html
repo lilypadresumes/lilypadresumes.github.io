@@ -64,7 +64,7 @@
     $('.upload').on('click', function() {
       var $critique = $(this).parents('.critique'),
           instance = ".critique[instance=\"" + $critique.attr('instance') + "\"]",
-          email = $(instance).find('input[type="email"]')[0].value).replace("@","AT"),
+          email = $(instance).find('input[type="email"]')[0].value.replace("@","AT"),
           encodedEmail = encodeURIComponent(email).replace(".", ""),
           file = $(instance).find('input[type="file"]')[0].files[0]
       
