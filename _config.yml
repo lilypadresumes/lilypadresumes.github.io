@@ -7,6 +7,7 @@ email: gethired@lilypadresumes.com
 timezone: America/Winnipeg
 google_analytics: UA-96566297-1
 repository: chrissavoie/lilypadresumes
+github: [metadata]
 
 twitter:
   username: lilypadjobs
@@ -45,4 +46,3 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-  
