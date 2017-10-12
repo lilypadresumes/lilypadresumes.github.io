@@ -4,35 +4,41 @@ Static build files for http://lilypadresumes.com
 
 ## Getting Started
 
-I basically made this document so I can remember how to spin up a local development environment after a few months hiatus.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-Jekyll has it's own set of requirements, available here:
-
-* [Jekyll Installation](https://jekyllrb.com/docs/installation/)
+These static assets are built into a web-ready site using Jekyll. [Install Jekyll](https://jekyllrb.com/docs/installation/) using RubyGems.
 
 ```
-Give examples
+$ gem install jekyll
 ```
 
-### Installing
+### Local Development
 
-With Jekyll installed and ready, insatll dependencies using bundle.
-
-```
-bundle install
-```
-
-And launch locally using
+In order to serve the site locally for testing, run the bundle gem installer:
 
 ```
-bundle exec jekyll serve
+$ bundle install
 ```
+
+Once that's complete, serve the site locally using:
+
+```
+$ bundle exec jekyll serve
+```
+
+`Server running...`
+
+## Deployment
+
+Just commit to `master` and push.
+
+Optional cache busting on CloudFlare for immediate updates.
 
 ## Built With
 
-* [Jekyll](https://jekyllrb.com/)
+* [Jekyll](httpa://jekyllrb.com/) - The wonderful static site builder.
 
 ## License
 
