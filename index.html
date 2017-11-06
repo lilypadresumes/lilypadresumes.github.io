@@ -13,7 +13,9 @@ layout: default
           <!-- <h2>The <b>career growth hack</b>.</h2> -->
           <!-- <h2>The growth hack for <b>career growth</b>.</h2> -->
           <p class="lead">Carefully crafted <b>resumes</b> and <b>cover letters</b> that get more interviews.&nbsp;</p>
-          <a class="btn type--uppercase btn--primary scroll-to" href="#critique"> <span class="btn__text">Start With a Free Critique!</span> </a>
+
+          {% include CTA.html %}
+
         </div>
       </div>
       <div class="col-sm-6 col-md-5">
@@ -23,7 +25,7 @@ layout: default
   </div>
 </section>
 
-{% include critique.html %}
+{% comment %}{% include critique.html %}{% endcomment %}
 
 <section class="switchable feature-large feature-large-13">
   <div class="container">
@@ -135,4 +137,4 @@ layout: default
 
 {% include testimonials.html %}
 
-{% include critique.html %}
+{% comment %}{% include critique.html %}{% endcomment %}
