@@ -7,10 +7,15 @@
 <script src="{{ "/assets/js/smooth-scroll.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/js/scripts.js" | relative_url }}"></script>
 
-{% comment %}
+<!-- Canecto Analytics -->
+<script>document.canecto = { id: 188 };</script>
+<script async src="https://resource.canecto.info/analytics.js"></script>
+
+
 <!-- HotJar -->
 <script src="{{ "/assets/js/hotjar.js" | relative_url }}"></script>
 
+{% comment %}
 <!-- PureChat -->
 <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '15033df9-0455-4def-a944-fc614bf91734', f: true }); done = true; } }; })();</script>
 
