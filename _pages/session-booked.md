@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Session Booked!
+permalink: /session-booked
 ---
 
 # **<strike style="color:#ccc">Step 1.</strike>** <span style="color:#ccc">Book your interview.</span>

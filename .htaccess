@@ -1,0 +1,56 @@
+RewriteEngine On
+RewriteBase /
+DirectorySlash Off
+IndexOptions FancyIndexing
+Options All -Indexes -MultiViews
+
+# Remove www.
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://lilypadresumes.com/$1 [R=301,L]
+
+# Force HTTPS
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTP_HOST} ^lilypadresumes\.com$ [NC]
+RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Remove the '.html' extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
+
+# Redirect requests to html extensions to URLs without
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+# Always remove 'index' or 'index.html' from the urls
+RewriteCond %{THE_REQUEST} ^.*\/index.*\ HTTP/
+RewriteRule ^(.*)index.*$ "/$1" [R=301,L]
+
+# ==============================================================================
+# Security
+# ==============================================================================
+Header add Strict-Transport-Security "max-age=31536000"
+
+# ==============================================================================
+# ERROR PAGES
+# ==============================================================================
+ErrorDocument 404 /404
+ErrorDocument 403 /404
+
+# ==============================================================================
+# REDIRECT RULES
+# ==============================================================================
+
+# Redirect rewrite example
+# RewriteRule ^string-goes-here$ string-goes-here/ [R=301,L]
+
+# ==============================================================================
+# CHARSET
+# ==============================================================================
+AddCharset UTF-8 .html
+AddCharset UTF-8 .xml
+AddCharset UTF-8 .json
+AddCharset UTF-8 .css
+AddCharset UTF-8 .js
+AddCharset UTF-8 .txt

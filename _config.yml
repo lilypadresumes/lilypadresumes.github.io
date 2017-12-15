@@ -8,6 +8,7 @@ timezone: America/Winnipeg
 google_analytics: UA-96566297-1
 repository: chrissavoie/lilypadresumes
 github: [metadata]
+include: [".htaccess","_pages"]
 
 twitter:
   username: lilypadjobs
@@ -20,8 +21,8 @@ social:
 
 # URL Vars
 urls:
-  twitter:            https://twitter.com/lilypadjobs
-  facebook:           https://www.facebook.com/LilyPad-Resumes-1852637254993095/
+  twitter:      https://twitter.com/lilypadjobs
+  facebook:     https://www.facebook.com/LilyPad-Resumes-1852637254993095/
 
 # Collections
 collections:

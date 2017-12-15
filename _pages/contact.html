@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /contact
 ---
 
 <section class="switchable">
@@ -17,12 +18,12 @@ layout: default
           <p class="lead">+1(204) 960-6895<br><a href="mailto:{{ site.email }}">{{ site.email }}</a> </p>
           <p class="lead"> Give me a call or shoot me an e-mail anytime, I endeavour to answer all enquiries within 24 hours. </p>
           <hr class="short">
-          <div class="row">  
+          <div class="row">
             <form method="POST" action="https://formspree.io/gethired@lilypadresumes.com" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
               <input type="hidden" name="_next" value="/thank-you">
               <input type="hidden" name="_subject" id="_subject" value="Lilypad Message From: ">
               <input type="text" name="_gotcha" style="display:none" />
-              
+
               <div class="col-sm-6">
                 <label for="contact_name">Your Name:</label>
                 <input type="text" name="name" id="contact_name" required class="validate-required">

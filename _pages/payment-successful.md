@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Payment Successful!
+permalink: /payment-successful
 ---
 
 ## Step 1: <a href="http://lilypadresumes.com/calendar" target="_blank">Book your interview</a>
