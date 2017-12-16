@@ -29,17 +29,14 @@ collections:
   posts:
     output: true
     permalink: /:title
-  products:
+  samples:
     output: true
-    permalink: /details/:title
-  sample:
-    output: true
-    permalink: /sample/:title
 
 # Extras
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-contentblocks
 
 # Build settings
 markdown: kramdown
