@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Session Booked!
+description: Interview booked! Thanks! Next step is to email me your resume so we can properly prepare for our call.
 permalink: /session-booked
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: page
 column: wide
-title: Customer Service Resume Sample
+title: Customer Service Resume Writing Sample
+description: This professionally written Customer Service Career resume sample features career highlights from a wide array of public facing roles.
 ---
 
 <style type="text/css">
@@ -909,9 +910,9 @@ title: Customer Service Resume Sample
     <li class="c3 c11"><span class="c4">Complete Rebrand</span><span class="c1">: Logo and menu redesign, web and social media presence, interior renovations, investment in training our staff, and introducing uniforms.</span></li>
   </ul>
   <p class="c3 c21"><span class="c1"></span></p>
-  <h2 class="c9" id="h.aquf8uu7y33w"><span>Tech Techers, Inc.<br></span><span class="c13 c18">Technical Recruiter</span></h2>
+  <h2 class="c9" id="h.aquf8uu7y33w"><span>Tech Teachers, Inc.<br></span><span class="c13 c18">Technical Recruiter</span></h2>
   <p class="c3"><span class="c0">JAN 2015 - JUL 2015</span></p>
-  <p class="c3"><span class="c0">Tech Techers is a fast growing start-up and I was brought on to help build the company from the ground up. From day one I established best practice processes for the company, built relationships with new clients to get profitable projects, forged relationships with consultants to place them on the right projects, set up a process workflow model for employees, and coordinated efforts between Pakistan and the US offices. I was a top performer at this company and to this day am periodically contacted to re-join. My secret was building trust. I put extreme care in client &amp; consultant outreach to ensure placements were perfect. As a result of my efforts the company was worth $500,000 by the time I left.</span></p>
+  <p class="c3"><span class="c0">Tech Teachers is a fast growing start-up and I was brought on to help build the company from the ground up. From day one I established best practice processes for the company, built relationships with new clients to get profitable projects, forged relationships with consultants to place them on the right projects, set up a process workflow model for employees, and coordinated efforts between Pakistan and the US offices. I was a top performer at this company and to this day am periodically contacted to re-join. My secret was building trust. I put extreme care in client &amp; consultant outreach to ensure placements were perfect. As a result of my efforts the company was worth $500,000 by the time I left.</span></p>
   <ul class="c19 lst-kix_nw4oua9zxpcg-0">
     <li class="c3 c11"><span class="c1">Established workflow, best practice processes, client and consultant relationships.</span></li>
     <li class="c3 c11"><span class="c1">As a result I grew the business to a $500,000 valuation by the time I left.</span></li>

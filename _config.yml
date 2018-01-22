@@ -10,6 +10,9 @@ repository: chrissavoie/lilypadresumes
 github: [metadata]
 include: [".htaccess","_pages"]
 
+author:
+  twitter: chrissavoie
+
 twitter:
   username: lilypadjobs
 
@@ -33,10 +36,10 @@ collections:
     output: true
 
 # Extras
-gems:
+plugins:
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-contentblocks
 
 # Build settings
 markdown: kramdown

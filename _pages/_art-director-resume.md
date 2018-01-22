@@ -2,6 +2,7 @@
 layout: page
 column: wide
 title: Art Director Resume Sample
+description: This professionally written User Experience Designer resume sample that landed interviews at international banks and government resulting in an $180,000/year offer!
 ---
 <style type="text/css">
   @import url('https://themes.googleusercontent.com/fonts/css?kit=3qINvnjb346LubKDfLRn69t6G6Z1RrRfgULZ1AHo7mPOfsfM6rvuuu7h1pY3r_-A');
