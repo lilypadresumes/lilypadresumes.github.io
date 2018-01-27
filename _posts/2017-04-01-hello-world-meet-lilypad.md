@@ -9,7 +9,7 @@ categories: ["Announcements"]
 ---
 ![Hello World, Meet Lilypad]({{ site.url }}/assets/img/hello-world-meet-lilypad.jpg)
 
-For the past 7 years I’ve been working as a marketer helping literally hundreds of small to medium sized business owners sell their products and services to their customers.
+For the past eight years I’ve been working as a marketer helping literally hundreds of small to medium sized business owners sell their products and services to their customers.
 
 Using the same techniques I've pitched myself and my skills to potential employers as a business investment instead of a job applicant. I’ve had remarkable success and in 7 years [I've never been without work for more than 30 days](/the-30-day-job-hunt).
 
