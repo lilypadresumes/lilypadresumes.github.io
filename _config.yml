@@ -9,6 +9,7 @@ google_analytics: UA-96566297-1
 repository: chrissavoie/lilypadresumes
 github: [metadata]
 include: [".htaccess","_pages"]
+exclude: ["stack"]
 
 author:
   twitter: chrissavoie
