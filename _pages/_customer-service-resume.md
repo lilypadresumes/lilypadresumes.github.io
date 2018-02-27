@@ -2,6 +2,7 @@
 layout: page
 column: wide
 title: Customer Service Resume Writing Sample
+permalink: /sample/resume-2
 description: This professionally written Customer Service Career resume sample features career highlights from a wide array of public facing roles.
 ---
 
