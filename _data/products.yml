@@ -1,6 +1,6 @@
 - name: Best Foot Forward
   description: Professionally Written Resume
-  price: 150
+  price: 160
   # compare-at: 150
   features:
     - <b>90 Min Consultation</b> - One on one interview to draw out your strengths.
@@ -9,7 +9,7 @@
 
 - name: Professional Pitch
   description: Professionally Written Resume & Cover Letter
-  price: 180
+  price: 200
   # compare-at: 299
   feaured: true
   features:
@@ -20,7 +20,7 @@
 - name: Social Media Suit & Tie
   slug: social-media-suit-tie
   description: Professionally Written Resume, Cover Letter, LinkedIn Profile, & LinkedIn Recommendation
-  price: 219
+  price: 240
   # compare-at: 360
   features:
     - <b>Professional Pitch Package</b>

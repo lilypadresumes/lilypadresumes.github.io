@@ -3,36 +3,36 @@
 <section>
   <div class="container">
     <div class="row">
-      {% for product in site.data.products %}
+      {% for product in site.data.products reversed %}
         <div class="col-sm-4">
           <div class="pricing pricing-1 boxed boxed--lg boxed--border {% if forloop.index == 2 %}boxed--emphasis{% endif %}">
             <h3>{{ product.name }}</h3>
-            
+
             {% if page.url != "/" %} <!-- Hide pricing on homepage -->
-              <span class="h2"><strong>${{ product.price }}</strong> 
+              <span class="h2"><strong>${{ product.price }}</strong>
                 {% if product.compare-at %}
                   <span class="type--strikethrough">${{ product.compare-at }}</span>
                 {% endif %}
               </span>
-              
+
             {% endif %}
-            
+
             <span class="type--fine-print">{{ product.description }}</span>
-            
+
             {% if product.feaured %}
               <span class="label">Popular!</span>
             {% endif %}
-            
+
             <hr>
-            
+
             <ul>
               {% for features in product.features %}
                 <li><span class="checkmark bg--primary-1"> </span>{{ features }}</li>
               {% endfor %}
             </ul>
-            
+
             {% include calendly-modal.html %}
-            
+
             <!-- <a class="btn btn--primary" href="/{% if product.slug %}{{ product.slug }}{% else %}{{ product.name | slugify }}{% endif %}">
               <span class="btn__text">Package Details</span>
             </a> -->
