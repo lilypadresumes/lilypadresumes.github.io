@@ -3,9 +3,9 @@
 <section>
   <div class="container">
     <div class="row">
-      {% for product in site.data.products reversed %}
+      {% for product in site.data.products %}
         <div class="col-sm-4">
-          <div class="pricing pricing-1 boxed boxed--lg boxed--border {% if forloop.index == 2 %}boxed--emphasis{% endif %}">
+          <div class="pricing pricing-1 boxed boxed--lg boxed--border {% if product.feaured %}boxed--lg--popular{% endif %} {% if forloop.index == 2 %}boxed--emphasis{% endif %}">
             <h3>{{ product.name }}</h3>
 
             {% if page.url != "/" %} <!-- Hide pricing on homepage -->

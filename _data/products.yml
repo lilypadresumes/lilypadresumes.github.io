@@ -7,22 +7,22 @@
     - <b>Professionally Written Resume</b> - Highlight your career wins and stand out.
     - <b>ATS Keyword Optimized</b> - Get flagged for callbacks through Applicant Tracking Systems(ATS).
 
-- name: Professional Pitch
-  description: Professionally Written Resume & Cover Letter
-  price: 200
-  # compare-at: 299
-  feaured: true
-  features:
-    - <b>Best Foot Forward Package</b>
-    - "<b>Cover Letter</b>: Pitch your skills as solutions. Written with eight years of marketing experience."
-    - "<b>Increased Callback Guarantee</b>: Employers are 40% more likely to read a resume accompanied by a cover letter."
-
 - name: Social Media Suit & Tie
   slug: social-media-suit-tie
   description: Professionally Written Resume, Cover Letter, LinkedIn Profile, & LinkedIn Recommendation
   price: 240
   # compare-at: 360
+  feaured: true
   features:
     - <b>Professional Pitch Package</b>
     - "<b>LinkedIn Profile</b>: 97% of employers look up candidates on LinkedIn."
     - "<b>Get Recommended</b>: A LinkedIn recommendation ready for an endorsement from your network."
+
+- name: Professional Pitch
+  description: Professionally Written Resume & Cover Letter
+  price: 200
+  # compare-at: 299
+  features:
+    - <b>Best Foot Forward Package</b>
+    - "<b>Cover Letter</b>: Pitch your skills as solutions. Written with eight years of marketing experience."
+    - "<b>Increased Callback Guarantee</b>: Employers are 40% more likely to read a resume accompanied by a cover letter."
