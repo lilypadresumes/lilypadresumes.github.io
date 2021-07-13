@@ -778,7 +778,7 @@ permalink: /sample/resume-1
     <p class="c21"><span class="c22"></span></p>
   </div>
   <p class="c2 title" id="h.qnl2h1xer1h9"><span class="c14">Jason Borne<br></span><span class="c8 c14">M:</span><span class="c8">&nbsp;(999) 999-9999 </span><span class="c8 c14">| E:</span><span class="c8">&nbsp;jason@borneagain.com </span><span class="c8 c14">|</span><span class="c8">&nbsp;</span>
-    <span class="c8 c14">W:</span><span class="c8">&nbsp;</span><span class="c16"><a class="c19" href="https://www.google.com/url?q=https://lilypadresumes.com/&amp;sa=D&amp;ust=1497415008079000&amp;usg=AFQjCNE0LzmmT6OQBX3yB49vgaIiT46g-g">http://jasonborne.com</a></span></p>
+    <span class="c8 c14">W:</span><span class="c8">&nbsp;</span><span class="c16"><a class="c19" href="https://www.google.com/url?q=https://lilypadresumes.github.io/&amp;sa=D&amp;ust=1497415008079000&amp;usg=AFQjCNE0LzmmT6OQBX3yB49vgaIiT46g-g">http://jasonborne.com</a></span></p>
   <p class="c20 subtitle" id="h.5otzbpf60gjp"><span class="c14">Creative Art Director</span></p>
   <h1 class="c17" id="h.fgzhf2mhpnva"><span class="c18 c14">PROFESSIONAL SUMMARY</span></h1>
   <p class="c15"><span class="c8">Entrepreneur, small business owner, community volunteer, father, and dynamite creative art director. I seek out the biggest design challenges that others naturally shy away from and turn them into incredible results that transform business. Increased sales, wider audiences, and increased efficiency. I&rsquo;m a business focused individual capable of impacting the bottom line and boosting entire departments.</span></p>

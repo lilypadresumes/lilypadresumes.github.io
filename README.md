@@ -1,6 +1,6 @@
 # Lilypad Career Marketing
 
-Static build files for http://lilypadresumes.com
+Static build files for https://lilypadresumes.github.io
 
 ## Getting Started
 

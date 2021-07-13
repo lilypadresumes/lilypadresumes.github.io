@@ -7,7 +7,7 @@ permalink: /session-booked
 
 # **<strike style="color:#ccc">Step 1.</strike>** <span style="color:#ccc">Book your interview.</span>
 
-# **Step 2.** [Send me](mailto:chris@lilypadresumes.com) your current resume.
+# **Step 2.** [Send me](mailto:chrissavoie@gmail.com) your current resume.
 
 ## That's it!
 

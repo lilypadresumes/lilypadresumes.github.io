@@ -1,9 +1,9 @@
 # Site settings
 title: Lilypad Career Marketing
 description: Your job hunt doesn't have to be this hard! Lilypad Resumes & Lilypad Career Marketing is the top professional resume writing & cover letter writing service for job seekers. Carefully crafted resumes and cover letters that get more interviews.
-url: "https://lilypadresumes.com"
+url: "https://lilypadresumes.github.io"
 logo: /assets/img/logo-light.png
-email: gethired@lilypadresumes.com
+email: chrissavoie@gmail.com
 timezone: America/Winnipeg
 google_analytics: UA-96566297-1
 repository: chrissavoie/lilypadresumes

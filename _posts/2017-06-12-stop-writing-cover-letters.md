@@ -69,4 +69,4 @@ Remember, they can’t continue to grow their business without you. They need yo
 
 If you're not sure your cover letter is an effective sales pitch, or if you're sure it isn't have a look at my [writing samples](/sample/cover-letter) and do a quick comparison. Each of these cover letters resulted in interview invitations, and job offers shortly after.
 
-Don't forget I'm here to help! With over 7 years of experience in the marketing industry I understand consumer behaviour and the decision making process. Shoot an email to [gethired@lilypadresumes.com](mailto:gethired@lilypadresumes.com) with your cover letter and I'd love to send you a free critique.
+Don't forget I'm here to help! With over 7 years of experience in the marketing industry I understand consumer behaviour and the decision making process. Shoot an email to [chrissavoie@gmail.com](mailto:chrissavoie@gmail.com) with your cover letter and I'd love to send you a free critique.

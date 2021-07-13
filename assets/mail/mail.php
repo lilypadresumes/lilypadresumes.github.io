@@ -16,16 +16,16 @@ $outgoingServerSecurity     = 'tls';                 // Options: 'ssl' , 'tls' ,
 
 // Sending Account Settings - replace these details with an email account held on the SMTP server entered above.
 // These 2 settings are only required if you choose 'smtp' for emailMethod above.
-$sendingAccountUsername     = 'gethired@lilypadresumes.com';
+$sendingAccountUsername     = 'chrissavoie@gmail.com';
 $sendingAccountPassword     = '';
 
 // Recipient (To:) Details  - Change this to the email details of who will receive all the emails from the website.
-$recipientEmail             = 'gethired@lilypadresumes.com'; // REQUIRED value.
+$recipientEmail             = 'chrissavoie@gmail.com'; // REQUIRED value.
 $recipientName              = 'Lilypad Career Marketing';             // REQUIRED value.
 
 // Email details            - Change these to suit your website needs
-$emailSubject               = 'A message from lilypadresumes.com'; // REQUIRED value. Subject of the email that the recipient will see
-$websiteName                = 'lilypadresumes.com';                // REQUIRED value. This is used when a name or email is not collected from the website form
+$emailSubject               = 'A message from lilypadresumes.github.io'; // REQUIRED value. Subject of the email that the recipient will see
+$websiteName                = 'lilypadresumes.github.io';                // REQUIRED value. This is used when a name or email is not collected from the website form
 
 $timeZone					= 'Canada/Winnipeg';         // OPTIONAL, but some servers require this to be set. 
                                                              // See a list of all supported timezones at: http://php.net/manual/en/timezones.php
